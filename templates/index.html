@@ -1,0 +1,398 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+    <!-- Favicon Section -->
+    <link rel="icon" href="{% static 'images/cartoon.webp' %}" type="image/jpg">
+
+    <!-- Boxicons Icons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+
+
+    <title>Cartoon Craze</title>
+
+</head>
+<body>
+
+    
+     
+ 
+    <!-- Navbar Section -->
+
+    <nav class="navbar" >
+        <div class="cartoon">
+            <img class="cartoon-craze" src="{% static 'images/cartoon.webp' %}" alt="cartoon pic">
+        <span>CartoonCraze</span>
+        </div>
+        
+        <ul id="menulink">
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#gallery-section">Gallery</a></li>
+            <li><a href="#trending-section">Trending</a></li>
+            <li><a href="#reviews-section">Reviews</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class='bxr  bx-menu' id="menubar"  ></i>
+        </div>
+        
+        
+         
+    </nav>
+
+    <!-- Tagline Section -->
+    <div class="home-section" id="hero-section">
+        <video src="{% static 'video/3094026-uhd_3840_2160_30fps.mp4' %}" autoplay muted loop></video>
+        <div class="left">
+            <h1>🎨 Cartoon Craze.</h1>
+            <h1>🎉 Where Fun Comes Alive 😃</h1>
+            <h1>✨ Are You Ready? 🚀🤩</h1>
+           <p>Step Into the Cartoon Universe! 🌍🎉 Cartoons aren’t just drawings — they’re magical worlds where imagination runs free 🎨✨. Every frame bursts with laughter 😂, color 🌈, and adventure 🚀, turning childhood memories into timeless smiles 🐰📺💫. They spark creativity 💡, teach lessons 📖, and bring characters to life that stay with us forever 🌟. From epic journeys 🌌 to funny moments 🤣, cartoons inspire joy, dreams, and endless imagination 🌠❤️.</p>
+
+            <a href="" class="btn">Explore More</a>
+        </div>
+    
+        
+
+    </div>
+    <div class="line"><marquee behavior="scroll" direction="right">Cartoon Craze 🎨✨ Cartoon Craze 🐰🎉 Cartoon Craze 🌍📺 Cartoon Craze 💫😂 Cartoon Craze 🎥🐭 Cartoon Craze 🦸‍♂️🌈 Cartoon Craze 🐱🎶 Cartoon Craze 🐉🔥 Cartoon Craze 🐧🍿 Cartoon Craze 🌟🧒</marquee></div>
+    
+    <!--Gallery Section -->
+    
+    <section id="gallery-section">
+        
+        <h2 class="autoShow">Gallery🖼️</h2>
+        <div class="gallery-container">
+            
+            
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/scooby doo.webp' %}" alt="cartoon pic">
+                <h4>Scooby Doo</h4>
+                <a href="https://youtu.be/XEWsGlLXuTY?si=XImV7gYZcdJLkTm3" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/db.jpg' %}" alt="cartoon pic">
+                <h4>Dragon Ball Z</h4>
+                <a href="https://youtu.be/8HiiE0r2ZL8?si=kuaaQkehydkj158k" target="_blank" ><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/pokemon.webp' %}"" alt="cartoon pic">
+                <h4>Pokemon</h4>
+                <a href="https://youtu.be/1mc0vU4UFvk?si=U4dXv0tNZsRr1BO_" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/beyblade.webp' %}" alt="cartoon pic">
+                <h4>Beyblade</h4>
+                <a href="https://youtu.be/rzT5oKv-E1Y?si=-hlyoy_7HoAM_AYP" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/oswald.webp ' %}"alt="cartoon pic">
+                <h4>Oswald</h4>
+                <a href="https://youtu.be/vXpAT4IwWpk?si=V6OLLxCZYhth2Cno" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/noddy.webp' %}" alt="cartoon pic">
+                <h4>Noddy in Toyland</h4>
+                <a href="https://youtu.be/I0v0JsQjXHo?si=rsMQXK6uNOhGzFXI" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/chota bheem.webp' %}" alt="cartoon pic">
+                <h4>Chota Bheem</h4>
+                <a href="https://youtu.be/vizynGz5Mg8?si=jgrBsjfcBJnk2p18" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+
+            <div class="gallery-items autoShow">
+                <img src="{% static 'images/bob the builder.jpg' %}" alt="cartoon pic">
+                <h4>Bob The Builder</h4>
+                <a href="https://youtu.be/7ezEIF1FcmU?si=WKhPyGBnpo-gmBOm" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/tom & jerry.webp' %}" alt="cartoon pic">
+                <h4>Tom & Jerry</h4>
+                <a href="https://youtu.be/7NYPRt12aG0?si=HUz8fPAHssLYqwKj" target="_blank"><div class="btn">Watch Now</div></a>
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/popeye.webp ' %}"alt="cartoon pic">
+                <h4>Popeye The Sailor Man</h4>
+                <a href="https://youtu.be/-6IaRUBomhk?si=yiQ783guaM06tk8k" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/ben 10.webp ' %}"alt="cartoon pic">
+                <h4>Ben 10</h4>
+                <a href="https://youtu.be/syMRqGNdmgI?si=RBiAu4wcb-X3UStd" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/teen titans.webp' %}" alt="cartoon pic">
+                <h4>Teen Titans</h4>
+                <a href="https://youtu.be/Sy6sIl2ijIk?si=124lT_Vl3K7vp87P" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/batman.webp' %}"alt="cartoon pic">
+                <h4>Batman</h4>
+                <a href="https://youtu.be/F39ls9RzDb0?si=80mEAU8EMtZ4FW3n" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src="{% static 'images/superman.webp' %}" alt="cartoon pic">
+                <h4>Superman </h4>
+                <a href="https://youtu.be/8BGwgoPpkbw?si=zKKQaY9wjKpIyJPX" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+             <div class="gallery-items autoShow">
+                <img src=" {% static 'images/spider-man.webp' %}" alt="cartoon pic">
+                <h4>Spiderman </h4>
+                <a href="https://youtu.be/LtiEd7-fSDo?si=qb4rm7J0jsD06Gsb" target="_blank"><div class="btn">Watch Now</div></a>
+
+            </div>
+
+
+        </div>
+        
+    </section>
+
+    <div class="line"><marquee behavior="scroll" direction="left">Cartoon Craze 🎨✨ Cartoon Craze 🐰🎉 Cartoon Craze 🌍📺 Cartoon Craze 💫😂 Cartoon Craze 🎥🐭 Cartoon Craze 🦸‍♂️🌈 Cartoon Craze 🐱🎶 Cartoon Craze 🐉🔥 Cartoon Craze 🐧🍿 Cartoon Craze 🌟🧒</marquee></div>
+
+    <!-- Trending Section -->
+
+    <section id="trending-section">
+        <h2 class="autoShow">Trending🔥</h2>
+        <div class="trending-container">
+
+             <div class="trending-items autoShow">
+                  <img width="340px" height="250px" src="{% static 'video/bheem.gif' %}" alt="bheem gif">
+                 <h4>Chota Bheem <i class="fa-solid fa-heart"></i></h4>
+                 
+            </div>
+           
+            <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/tom.gif' %}"alt="tom.gif">
+                 <h4>Tom & Jerry <i class="fa-solid fa-heart"></i></h4>
+            </div>
+           
+            <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/popeye.gif' %}"alt="popeye.gif">
+                 <h4>Popeye The Sailor <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+            <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/superman.gif' %}"alt="superman.gif">
+                 <h4>Superman <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+             <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/scooby.gif' %}"alt="scooby.gif">
+                 <h4>Scooby Doo <i class="fa-solid fa-heart"></i></h4>
+            </div>
+           
+
+            <div class="trending-items autoShow">
+                <img width="340px" height="250px" src=" {% static 'video/bob.gif' %}"alt="bob the builder.gif">
+                <h4>Bob The Builder <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+            <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src="{% static 'video/pokemon.gif' %}"alt="pokemon.gif">
+                 <h4>Pokemon <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+            <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/dragon.gif' %}"alt="dragon ball z.gif">
+                 <h4>Dragon Ball Z <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+             <div class="trending-items autoShow">
+                 <img width="340px" height="250px" src=" {% static 'video/ben-10.gif' %}"alt="ben-10.gif">
+                 <h4>Ben 10 <i class="fa-solid fa-heart"></i></h4>
+            </div>
+           
+            
+        </div>
+
+    </section>
+
+     <div class="line"><marquee behavior="scroll" direction="right">Cartoon Craze 🎨✨ Cartoon Craze 🐰🎉 Cartoon Craze 🌍📺 Cartoon Craze 💫😂 Cartoon Craze 🎥🐭 Cartoon Craze 🦸‍♂️🌈 Cartoon Craze 🐱🎶 Cartoon Craze 🐉🔥 Cartoon Craze 🐧🍿 Cartoon Craze 🌟🧒</marquee></div>
+
+    <!-- Reviews Section -->
+
+    <section id="reviews-section">
+        <h2 class="autoShow">Reviews⭐</h2>
+        <div class="reviews-container">
+            <div class="reviews autoShow">
+                <img src=" {% static 'images/user1.jpg' %}" alt="image">
+            <p>Cartoon Craze is an amazing website! The gallery carousel is fun to explore, and the trending section keeps me updated with the latest cartoons. A creative and entertaining platform I truly enjoy.</p>
+                <p>— Rishav Kumar, Navy Engineer  <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i></p>
+            </div>
+
+             <div class="reviews autoShow">
+                <img src=" {% static 'images/user2.jpg' %}" alt="image">
+            <p>I’m impressed with Cartoon Craze’s smooth navigation and clean layout. The trending videos load quickly, and the gallery is filled with vibrant cartoons. A fantastic site for anyone who loves animation.</p>
+               <p>— Purnendu Tiwari, Developer  <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i></p>
+            </div>
+
+             <div class="reviews autoShow">
+                <img src="{% static 'images/user3.jpg' %}" alt="image">
+            <p>Cartoon Craze makes browsing cartoons so enjoyable. The gallery section is colorful, and the trending updates are always fresh. The site is well-designed and a joy to explore daily.</p>
+              <p>— Sneha Verma, Data Analyst  <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i></p>
+            </div>
+
+             <div class="reviews autoShow">
+                <img src=" {% static 'images/user5.jpg' %}" alt="image">
+            <p>Cartoon Craze stands out with its interactive gallery and smooth carousel of cartoons. The trending section is addictive! A wonderful platform for cartoon lovers of all ages.</p>
+             <p>— Sushant Kr Roy, Engineer  <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i></p>
+            </div>
+
+            <div class="reviews autoShow">
+                <img src=" {% static 'images/user6.jpg' %}" alt="image">
+            <p>Cartoon Craze is creative, entertaining, and very user-friendly. The gallery of cartoons looks fantastic, and the trending videos make it exciting. A must-visit site for cartoon fans everywhere.</p>
+             <p>— Aditi Sharma, HR Specialist  <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i></p>
+            </div>
+
+            <div class="reviews autoShow">
+                <img src=" {% static 'images/user7.jpg' %}" alt="image">
+            <p>As a UX Designer, I love how Cartoon Craze balances fun and usability. The gallery feels lively, the trending section is engaging, and the reviews bring authenticity. A delightful cartoon hub!</p>
+              <p>— Priya Nair, UX Designer <i class='bxr  bx-star'  style='color:#e8e1e1'></i> <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  <i class='bxr  bx-star'  style='color:#e8e1e1'></i>  </p>
+            </div>
+
+            
+            
+        </div>
+    </section>
+
+    <div class="line"><marquee behavior="scroll" direction="left">Cartoon Craze 🎨✨ Cartoon Craze 🐰🎉 Cartoon Craze 🌍📺 Cartoon Craze 💫😂 Cartoon Craze 🎥🐭 Cartoon Craze 🦸‍♂️🌈 Cartoon Craze 🐱🎶 Cartoon Craze 🐉🔥 Cartoon Craze 🐧🍿 Cartoon Craze 🌟🧒</marquee></div>
+
+    <section id="contact-section">
+        <h2 class="autoShow">Contact📞</h2>
+
+            <form class="autoShow" method="post">
+                {% csrf_token %}
+
+                <!-- name  section -->
+
+            
+            <input type="text" id="name" name="name" placeholder="  Your Name" required><br><br>
+
+            <!-- email section -->
+
+            
+            <input type="email" id="email" name="email" placeholder="  email@.com" required><br><br>
+
+            <!-- password section -->
+
+            
+            <input type="password" id="password" name="password" placeholder="  Your Password" required><br><br>
+
+            <!-- address section -->
+             <input type="text" id="address" name="address" placeholder="  Your Address" required><br><br>
+
+             <!-- phone section -->
+
+             <input type="number" id="number" name="phone_number" placeholder="  Your Phone Number" required><br><br>
+
+            <!-- Feedback section -->
+             <input type="text" id="feedback" name="feedback" placeholder="  Your Feedback" required><br><br>
+             
+             <!--Submit Section  -->
+
+             <button type="submit" class="submit-btn">Submit</button>
+             
+            
+        </form>
+          
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="col col-1">
+            <h3>About Us</h3>
+            <p>Made with ❤️ by Shaif – A world of cartoons crafted with imagination, fun, and joy, bringing endless smiles to every visitor’s screen.</p>
+        </div>
+        <div class="github">
+            <ul>
+                <li><i class="fa-brands fa-github"></i><a href="https://github.com/Shaif-Khan" target="_blank">Github</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="linkedin">
+            <ul>
+                <li><i class="fa-brands fa-linkedin"></i><a href="https://linkedin.com/in/shaif-khan" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="email">
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:khanshaif2310@gmail.com" target="_blank">Email</a></li>
+            </ul>
+        </div>
+
+        <div class="website">
+            <ul>
+                <li><i class='bxr  bx-globe'></i> <a href="https://my-portfolio-website-jet-ten.vercel.app/" target="_blank">Website</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+   <!-- Javascript Section --> 
+
+<script>
+        let menulink = document.getElementById("menulink")
+        let menubar = document.getElementById("menubar")
+
+        menulink.style.maxHeight = "0px"
+
+        menubar.addEventListener("click", () => {
+            if (menulink.style.maxHeight === "0px")
+            {
+                menulink.style.maxHeight = "350px"
+
+            }
+            else{
+                menulink.style.maxHeight = "0px"
+            }
+        })
+
+
+    </script>
+    
+
+</body>
+</html>
+{% load static %}
